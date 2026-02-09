@@ -1,0 +1,71 @@
+/* Fondo moderno */
+body {
+    background-color: rgb(0, 0, 0);
+    transition: background-color 0.4s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Tarjeta principal */
+.color-card {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+
+/* Recuadro de color */
+/*
+.color-box {
+    height: 160px;
+    border-radius: 15px;
+    border: 2px solid #ddd;
+    background-color: rgb(0, 0, 0);
+    transition: background-color 0.3s ease;
+}
+    */
+
+/* Color picker */
+.color-picker {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+/* Sliders personalizados */
+.form-range {
+    height: 6px;
+}
+
+.range-red::-webkit-slider-thumb {
+    background: #ff4d4d;
+}
+
+.range-green::-webkit-slider-thumb {
+    background: #2ecc71;
+}
+
+.range-blue::-webkit-slider-thumb {
+    background: #3498db;
+}
+
+/* Inputs numéricos */
+input[type="number"] {
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Texto */
+h2 {
+    color: #333;
+}
+
+p {
+    font-size: 0.95rem;
+    color: #555;
+}
